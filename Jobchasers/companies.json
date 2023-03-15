@@ -3,7 +3,7 @@
         "companyName": "Svenska Spel",
         "id": "01",
         "jobTitle": "Front End Devoloper",
-        "jobDescription": "",
+        "jobDescription": "Your main task is software development, i.e. technical design and programming. You will contribute to creating smart, easy-to-use web-based games and services for different types of clients such as mobile, tablet and desktop. You develop our games and services in close collaboration with clients, UX and testers. You are responsible for both new development and changes to existing functions - and contribute to creating secure, customer-friendly solutions with very high performance requirements.",
         "date": "2023/02/27",
         "typeOfEmployment": "Full Time",
         "logoLink": "https://commons.wikimedia.org/wiki/File:Svenska_Spel_Logo.svg",
@@ -13,17 +13,17 @@
         "companyName": "Nordea",
         "id": "02",
         "jobTitle": "Back End Devoloper",
-        "jobDescription": "",
+        "jobDescription": "We are looking for back-end developers to join our team in Finland. This is an opportunity for you to play a part in building a better finance company and help our customers to reach their goals.",
         "date": "2023/03/01",
         "typeOfEmployment": "Consulting",
         "logoLink": "https://commons.wikimedia.org/wiki/File:Nordea_logo.svg",
-        "category": ["Office", "Bank"]
+        "category": ["Office", "Bank", "Consulting"]
     },
     {
         "companyName": "Webhallen",
         "id": "03",
-        "jobTitle": "UX Designer",
-        "jobDescription": "",
+        "jobTitle": "Web Editor",
+        "jobDescription": "We are looking for a Web Editor! As a Web editor at Webhallen, you are part of our e-commerce team and report to the Head of E-Commerce. Your mission is to produce, develop and manage SEO-optimized written material on our website. Our website is adapted to our customers' passion for tech and gaming, where our customers expect to find good advice and tips & tricks. Therefore, your focus will be on SEO-optimized material such as guides, campaign pages and recommendations.",
         "date": "2023/03/11",
         "typeOfEmployment": "Part Time",
         "logoLink": "https://commons.wikimedia.org/wiki/File:Logotyp_2021.png",
@@ -33,10 +33,10 @@
         "companyName": "Chas",
         "id": "04",
         "jobTitle": "Fullstack Developer",
-        "jobDescription": "",
+        "jobDescription": "We are looking for someone with at least 4 years of experience who loves to solve problems. A big plus is if you have knowledge of system architecture and good technical understanding. We think you have good knowledge of Node.js, Angular or React and MySQL. Also have knowledge in DevOps, apply!",
         "date": "2023/02/20",
         "typeOfEmployment": "Consulting",
         "logoLink": "https://www.businessawardseurope.com/images/news/27649/chas_visual_management__medium.jpg",
-        "category": ["Office"]
+        "category": ["Office", "Consulting"]
     }
 ]
