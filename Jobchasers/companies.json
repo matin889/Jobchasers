@@ -1,0 +1,42 @@
+[
+    {
+        "companyName": "Svenska Spel",
+        "id": "01",
+        "jobTitle": "Front End Devoloper",
+        "jobDescription": "",
+        "date": "2023/02/27",
+        "typeOfEmployment": "Full Time",
+        "logoLink": "https://commons.wikimedia.org/wiki/File:Svenska_Spel_Logo.svg",
+        "category": ["Betting", "Office", "Store"]
+    },
+    {
+        "companyName": "Nordea",
+        "id": "02",
+        "jobTitle": "Back End Devoloper",
+        "jobDescription": "",
+        "date": "2023/03/01",
+        "typeOfEmployment": "Consulting",
+        "logoLink": "https://commons.wikimedia.org/wiki/File:Nordea_logo.svg",
+        "category": ["Office", "Bank"]
+    },
+    {
+        "companyName": "Webhallen",
+        "id": "03",
+        "jobTitle": "UX Designer",
+        "jobDescription": "",
+        "date": "2023/03/11",
+        "typeOfEmployment": "Part Time",
+        "logoLink": "https://commons.wikimedia.org/wiki/File:Logotyp_2021.png",
+        "category": ["Store"]
+    },
+    {
+        "companyName": "Chas",
+        "id": "04",
+        "jobTitle": "Fullstack Developer",
+        "jobDescription": "",
+        "date": "2023/02/20",
+        "typeOfEmployment": "Consulting",
+        "logoLink": "https://www.businessawardseurope.com/images/news/27649/chas_visual_management__medium.jpg",
+        "category": ["Office"]
+    }
+]
