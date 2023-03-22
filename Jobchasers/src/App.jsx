@@ -1,34 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React, { useState } from 'react';
+import companies from '../companies.json';
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [query, setQuery] = useState('');
+  
+  const search = (item) => {
+    return (
+      item.companyName.toLowerCase().includes(query.toLowerCase()) ||
+      item.jobTitle.toLowerCase().includes(query.toLowerCase()) ||
+      item.category.join(' ').toLowerCase().includes(query.toLowerCase())
+    );
+  };
+
+const filteredData = companies.filter(search);
+
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div>
+      <input type="text" value={query} onChange={(e) => setQuery(e.target.value)} />
+      <ul>
+        {filteredData.map((item) => (
+          <li key={item.id}>
+            <h2>{item.companyName}</h2>
+            <p>{item.jobTitle}</p>
+          </li>
+        ))}
+      </ul>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
