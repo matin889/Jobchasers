@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import companies from '../companies.json';
 import { setSelectedTag, setFilteredData} from './features/filterSlice';
@@ -6,10 +6,8 @@ import store from './features/store'
 
 
 function App() {
-  const [query, setQuery] = useState('',[]);
-  
+  const [query, setQuery] = useState('');
   const dispatch = useDispatch();
-  
   const selectedTag = useSelector((state) => state.filter.selectedTag);
   
   const search = (item) => {
@@ -22,12 +20,16 @@ function App() {
  
   const handleTagClick = (tag) => {
     dispatch(setSelectedTag(tag));
+    const filteredData = companies.filter((item) => item.category.includes(tag));
+    dispatch(setFilteredData(filteredData));
   };
+
   const filteredData = selectedTag
     ? companies.filter((item) => item.category.includes(selectedTag))
     : companies.filter(search);
-  dispatch(setFilteredData(filteredData));
-  console.log(store.getState())
+    console.log(store.getState());
+
+
  
   return (
     <div>

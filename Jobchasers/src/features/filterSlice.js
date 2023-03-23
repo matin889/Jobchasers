@@ -14,5 +14,7 @@ export const filterSlice = createSlice({
     },
   },
 });
+
+
 export const { setSelectedTag, setFilteredData } = filterSlice.actions;
 export default filterSlice.reducer;
