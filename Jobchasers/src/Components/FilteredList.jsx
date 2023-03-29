@@ -17,7 +17,7 @@ function FilteredList({ companies }) {
 
   const filteredCompanies = companies.filter((company) => {
     if (selectedTag && !company.category.includes(selectedTag)) {
-      return false; // skip if selected tag is active and company doesn't match it
+      return false; 
     }
 
     if (query) {
@@ -27,7 +27,7 @@ function FilteredList({ companies }) {
       return searchTerms.every((term) => searchIn.includes(term));
     }
 
-    return true; // include all companies if no tag or query is active
+    return true; 
   });
 
   return (
