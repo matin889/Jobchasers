@@ -1,8 +1,9 @@
+
 [
     {
         "companyName": "Svenska Spel",
         "id": "01",
-        "jobTitle": "Front End Developer",
+        "jobTitle": "Front End Devoloper",
         "jobDescription": "Your main task is software development, i.e. technical design and programming. You will contribute to creating smart, easy-to-use web-based games and services for different types of clients such as mobile, tablet and desktop. You develop our games and services in close collaboration with clients, UX and testers. You are responsible for both new development and changes to existing functions - and contribute to creating secure, customer-friendly solutions with very high performance requirements.",
         "date": "2023/02/27",
         "typeOfEmployment": "Full Time",
@@ -12,7 +13,7 @@
     {
         "companyName": "Nordea",
         "id": "02",
-        "jobTitle": "Back End Developer",
+        "jobTitle": "Back End Devoloper",
         "jobDescription": "We are looking for back-end developers to join our team in Finland. This is an opportunity for you to play a part in building a better finance company and help our customers to reach their goals.",
         "date": "2023/03/01",
         "typeOfEmployment": "Consulting",
@@ -38,5 +39,66 @@
         "typeOfEmployment": "Consulting",
         "logoLink": "https://www.businessawardseurope.com/images/news/27649/chas_visual_management__medium.jpg",
         "category": ["Office", "Consulting"]
+    },
+    {
+        "companyName": "Ticket",
+        "id": "05",
+        "jobTitle": "Backend Developer -C#",
+        "jobDescription": "As a developer at Ticket, you work together with driven and humble winners in various product teams who are responsible for the company's market-leading services. The work involves developing new and improving existing functions and systems connected to Ticket's e-commerce platform. We also help our business owners in functional discussions. With us, you get great opportunities to be involved in leading and driving development in our environments.",
+        "date": "2023/02/11",
+        "typeOfEmployment": "Full Time",
+        "logoLink": "https://via.tt.se/data/images/00645/dcca5945-8c2d-4fdc-b48f-dbf9406d53d2-w_300_h_100.png",
+        "category": ["Office", "Store"]
+    },
+    {
+        "companyName": "TV4",
+        "id": "06",
+        "jobTitle": "Backend Engineer",
+        "jobDescription": "Work with modern, large-scale, resilient systems with high performance requirements. Take responsibility for system design, write design documents and get time to build quality solutions. Participate and own services E2E, i.e. decide how best to build, test, implement and monitor. Daily talk directly with stakeholders, e.g. other backend teams and product. Mentor junior developers and participate in tech sessions we have every week for knowledge sharing. Contribute to open source work.",
+        "date": "2023/02/29",
+        "typeOfEmployment": "Full Time",
+        "logoLink": "https://commons.wikimedia.org/wiki/File:TV4sweden_logo.svg",
+        "category": ["Office"]
+    },
+    {
+        "companyName": "Svea Bank",
+        "id": "07",
+        "jobTitle": ".Net Developer",
+        "jobDescription": "We are looking for you who want to join and further develop our solutions in e-commerce, where you, as part of a small tight-knit team, get a lot of freedom under responsibility, as well as work in a fast-moving and expansive area. You will belong to Payson, part of Svea Bank, which provides payment solutions for companies and individuals in e-commerce. This is a perfect opportunity for you who are passionate about development and love to create solutions that make everyday life smoother and easier for users, who at the same time want to have fun at work!",
+        "date": "2023/02/21",
+        "typeOfEmployment": "Full Time",
+        "logoLink": "https://via.tt.se/data/images/00291/32085b0f-31df-493b-be55-7969c7458f27-w_300_h_100.jpg",
+        "category": ["Office", "Bank"]
+    },
+    {
+        "companyName": "Fortnox AB",
+        "id": "08",
+        "jobTitle": "Frontend Developer",
+        "jobDescription": "We are now looking for a Frontend developer! Together with your team, you will be responsible for further developing and managing some of our core front-end frameworks and component libraries. Our mission is to make it easier for frontend developers and designers in-house at Fortnox to do their jobs as well and efficiently as possible and to ensure that our product provides a cohesive experience.",
+        "date": "2023/03/20",
+        "typeOfEmployment": "Part Time",
+        "logoLink": "https://www.fortnox.se/fortnox-logo-green.png",
+        "category": ["Office"]
+    },
+    {
+        "companyName": "Arbetsförmedlingen",
+        "id": "09",
+        "jobTitle": "Backend Developer .Net",
+        "jobDescription": "We offer a fast-moving, fun and inspiring workplace where we develop new innovative services close to the users. We work in an agile culture inspired by SAFe. We collaborate cross-functionally in everything we do and most employees work in roles that are T-shaped, which means that you have deep competence in one or more areas and are good in your trade. Thinking new things and quickly implementing them in our business is important to us!",
+        "date": "2023/03/10",
+        "typeOfEmployment": "Part Time",
+        "logoLink": "https://commons.wikimedia.org/wiki/File:Arbetsf%C3%B6rmedlingen_Symbol.jpg",
+        "category": ["Office"]
+    },
+    {
+        "companyName": "Mio AB",
+        "id": "10",
+        "jobTitle": "C# Webbdeveloper",
+        "jobDescription": "Experienced developers, both for system development and web backend and frontend. We are looking for both the web team in Science Park Skövde and the head office in Tibro where we run all other IT for the entire chain across Sweden.",
+        "date": "2023/03/14",
+        "typeOfEmployment": "Part Time",
+        "logoLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/MIO_Logo.svg/1170px-MIO_Logo.svg.png",
+        "category": ["Office"]
     }
+    
 ]
