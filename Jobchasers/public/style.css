@@ -12,18 +12,25 @@
     width: 100%;
   }
   header {
-    height: 50px;
-    background: rgb(33, 199, 241);
-    margin: 0 0 50px 0;
-    border-radius: 2px;
-    box-shadow: 2px 2px 2px rgb(33, 199, 241);
-  }
-  .search-box {
-    width: 70%;
-    height: 50px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgb(106, 104, 104);
-  }
+  height: 50px;
+  background: #00c2ff;
+  margin: 0 0 50px 0;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #00c2ff;
+}
+.search-box {
+  display: flex;
+  width: 70%;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgb(106, 104, 104);
+}
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
   .job-card {
     display: flex;
     gap: 10px;
