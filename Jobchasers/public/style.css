@@ -1,22 +1,29 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    background: rgb(243, 241, 239);
-    color: black;
-  }
-  img {
-    width: 100%;
-  }
-  header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: rgb(243, 241, 239);
+  color: black;
+}
+img {
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   background: #00c2ff;
   margin: 0 0 50px 0;
-  border-radius: 2px;
-  box-shadow: 2px 2px 2px #00c2ff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
 }
 .search-box {
   display: flex;
@@ -30,38 +37,60 @@
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-top: 50px;
 }
-  .job-card {
-    display: flex;
-    gap: 10px;
-    border: 2px solid rgb(240, 235, 235);
-    border-radius: 10px;
-    width: 70%;
-    padding: 0 10px 0 10px;
-    margin: 50px auto;
-  }
-  .company {
-    display: flex;
-    flex: 1 120px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .job-details {
-    display: flex;
-    flex: 5 120px;
-    flex-direction: column;
-    gap: 10px;
-    padding: 0.25rem;
-    width: 450px;
-    text-align: left;
-  }
-  .title {
-    color: #160691;
-  }
-  .logo {
-    height: 5rem;
-  }
-  .description {
-    text-align: justify;
-  }
+.tags > button {
+  border-radius: 5px;
+  padding: 5px;
+}
+.tags > button:hover {
+  background-color: #00c2ff;
+  color: white;
+}
+.job-card {
+  display: flex;
+  gap: 10px;
+  border: 2px solid rgb(240, 235, 235);
+  border-radius: 10px;
+  width: 70%;
+  padding: 0 10px 0 10px;
+  margin: 50px auto;
+}
+.company {
+  display: flex;
+  flex: 1 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.job-details {
+  display: flex;
+  flex: 5 120px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0.25rem;
+  width: 450px;
+  text-align: left;
+}
+.title {
+  color: #160691;
+}
+.logo {
+  height: 5rem;
+  transition: transform 0.5s ease;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+.company-name {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: transform 0.5s ease;
+}
+.company-name:hover {
+  transform: scale(1.1);
+}
+.description {
+  text-align: justify;
+}

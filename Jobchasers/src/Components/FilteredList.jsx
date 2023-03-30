@@ -1,13 +1,13 @@
-import React from 'react';
-import { useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { setSelectedTag } from '../features/filterSlice';
-import SearchBar from './SearchBar';
-import TagButton from './TagButton';
-import JobList from './JobList';
+import React from "react";
+import { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { setSelectedTag } from "../features/filterSlice";
+import SearchBar from "./SearchBar";
+import TagButton from "./TagButton";
+import JobList from "./JobList";
 
 function FilteredList({ companies }) {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
   const selectedTag = useSelector((state) => state.filter.selectedTag);
   const dispatch = useDispatch();
 
@@ -17,23 +17,25 @@ function FilteredList({ companies }) {
 
   const filteredCompanies = companies.filter((company) => {
     if (selectedTag && !company.category.includes(selectedTag)) {
-      return false; 
+      return false;
     }
 
     if (query) {
-      const searchTerms = query.toLowerCase().split(' ');
+      const searchTerms = query.toLowerCase().split(" ");
       const { jobTitle, companyName, category } = company;
-      const searchIn = [jobTitle, companyName, ...category].join(' ').toLowerCase();
+      const searchIn = [jobTitle, companyName, ...category]
+        .join(" ")
+        .toLowerCase();
       return searchTerms.every((term) => searchIn.includes(term));
     }
 
-    return true; 
+    return true;
   });
 
   return (
-    <div className="tags">
+    <div>
       <SearchBar query={query} setQuery={setQuery} />
-      <div>
+      <div className="tags">
         <TagButton tag="Office" handleTagClick={handleTagClick} />
         <TagButton tag="Consulting" handleTagClick={handleTagClick} />
         <TagButton tag="Store" handleTagClick={handleTagClick} />

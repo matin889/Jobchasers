@@ -1,14 +1,12 @@
-import React from 'react';
-import companies from '../companies.json';
-import FilteredList from './Components/FilteredList';
-
+import React from "react";
+import companies from "../companies.json";
+import FilteredList from "./Components/FilteredList";
 
 function App() {
-
   return (
-    <div>
+    <>
       <FilteredList companies={companies} />
-    </div>
+    </>
   );
 }
 
