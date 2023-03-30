@@ -31,7 +31,7 @@ function FilteredList({ companies }) {
   });
 
   return (
-    <div>
+    <div className="tags">
       <SearchBar query={query} setQuery={setQuery} />
       <div>
         <TagButton tag="Office" handleTagClick={handleTagClick} />
