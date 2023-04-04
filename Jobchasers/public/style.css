@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +26,7 @@ header {
   font-family: "Inter", sans-serif;
   font-size: 2rem;
   font-weight: 800;
+  padding: 2rem;
 }
 .search-box {
   display: flex;
@@ -58,6 +61,7 @@ header {
   margin: 50px auto;
 }
 .company {
+  font-family: 'Lato', sans-serif;
   display: flex;
   flex: 1 120px;
   flex-direction: column;
@@ -65,15 +69,22 @@ header {
   align-items: center;
 }
 .job-details {
+  font-family: 'Lato', sans-serif;
   display: flex;
   flex: 5 120px;
   flex-direction: column;
   gap: 10px;
-  padding: 0.25rem;
+  padding: 1.5rem;
   width: 450px;
   text-align: left;
 }
+
+.description {
+  font-family: 'Lato', sans-serif;
+}
+
 .title {
+  font-family: 'Lato', sans-serif;
   color: #160691;
 }
 .logo {
