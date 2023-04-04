@@ -48,6 +48,7 @@ header {
   color: white;
 }
 .job-card {
+  background: #ffffff;
   display: flex;
   gap: 10px;
   border: 2px solid rgb(240, 235, 235);
