@@ -22,8 +22,8 @@ function FilteredList({ companies }) {
 
     if (query) {
       const searchTerms = query.toLowerCase().split(" ");
-      const { jobTitle, companyName, category } = company;
-      const searchIn = [jobTitle, companyName, ...category]
+      const { jobTitle, companyName, category, jobDescription, typeOfEmployment } = company;
+      const searchIn = [jobTitle, companyName, ...category, jobDescription, typeOfEmployment]
         .join(" ")
         .toLowerCase();
       return searchTerms.every((term) => searchIn.includes(term));
